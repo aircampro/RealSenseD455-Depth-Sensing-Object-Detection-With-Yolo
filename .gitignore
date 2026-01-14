@@ -29,3 +29,7 @@ checkpoints/
 
 # Obsidian editing
 .obsidian
+
+# DevContainer artifacts
+.devcontainer/.env
+.devcontainer/docker-compose.override.yml
