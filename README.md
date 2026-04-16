@@ -6,6 +6,8 @@
 	- Use this to make sure your Realsense camera is properly connecting to your host and working with `yolo` to detect objects and detect their distance.
 - [follow_person_node.py](https://github.com/bincent0929/RealSenseD455-Depth-Sensing-Object-Detection-With-Yolov8/blob/main/follow_person_node.py "follow_person_node.py")
 	- Set to initialize a connection to a Robotis robot running ROS2 with a Realsense camera mounted that runs Ultralytics's YOLO to detect person's in the environment and follow them until reaching a meter away from them.
+ -  [follow_yolo_obj.py](https://github.com/bincent0929/RealSenseD455-Depth-Sensing-Object-Detection-With-Yolov8/blob/main/follow_person_node.py "follow_yolo_obj.py")
+	- Set to initialize a connection to a Robotis robot running ROS2 with a Realsense camera mounted that runs Ultralytics's YOLO to detect the specified yolo object in the environment and follow them until reaching a meter away from them.
 ## How To Set Up Your Environment To Run The Programs
 Firstly, you need to make sure that the robot is able to be reached using the normal process of connecting to it from Robotis. You want to make sure that you have a PC setup by following [this guide](https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/#pc-setup) (during the ROS2 install step, you DO NOT need to install any more than the `ros-humble-ros-base` for ROS). Then get an SBC that is connected to the robot of your choice's motors through an OpenCR board or equivalent by following [this guide](https://emanual.robotis.com/docs/en/platform/turtlebot3/sbc_setup/#sbc-setup).
 ***
